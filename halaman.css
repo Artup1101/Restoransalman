@@ -1,0 +1,18 @@
+.banner-title h1{
+    font-size: 64px;
+    margin-bottom: 30px;
+    text-align: center; 
+    color: #ffffff;
+}
+.banner-title p{
+    font-size: 22px;
+    text-align: left;
+    color: #ffffff;
+}
+body{
+    font-family: sans-serif;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(makanan.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
