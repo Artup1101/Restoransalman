@@ -16,13 +16,13 @@
     
     <div class="kotak_masuk">
 		<p class="masuk">SILAHKAN MASUK</p>  
-    
+        <p class="masukk">
         <form action="prosesdaftar.php" method="post">
             <label>Username   : </label>
             <input type="text" name="username" class="masuk" placeholder ="Username"> <br>
             <label>Password   : </label>
-            <input type="text" name="password" class="masuk" placeholder ="Password"><br>
-            <button type="submit" class=tombol_masuk>Daftar</button><br><br>
+            <input type="password" name="password" class="masuk" placeholder ="Password"><br>
+            <button type="submit" class=tombol_masuk>Daftar</button><br><br></p>
         </form>
         <form action="makanan1.php" method="post">
             <button type="submit" class=tombol_masuk>Login</button>

@@ -17,14 +17,14 @@
     <h1 align ="center">Selamat Datang</h1>
     
     <div class="kotak_masuk">
-		<p class="masuk">SILAHKAN MASUK</p>  
-    
+		<p class="masuk" >SILAHKAN MASUK</p>  
+        <p class = "masukk">
         <form action="proseslogin.php" method="post">
             <label>Username   : </label>
             <input type="text" name="username" class="masuk" placeholder ="Username"> <br>
             <label>Password   : </label>
-            <input type="text" name="password" class="masuk" placeholder ="Password"><br>
-            <button type="submit" class=tombol_masuk>Login</button><br><br>
+            <input type="password" name="password" class="masuk" placeholder ="Password"><br>
+            <button type="submit" class=tombol_masuk>Login</button><br><br></p>
         </form>
         <form action="makanan2.php" method="post">
             <button type="submit" class=tombol_masuk>Daftar</button>

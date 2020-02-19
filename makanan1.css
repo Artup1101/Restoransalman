@@ -13,8 +13,13 @@ h1{
     font-size: 100pt;
 }
 .masuk{
-    font-size: 12PT;
-	text-align: center;
+	font-size: 12PT;
+	text-align:center;
+    text-transform: capitalize ;   
+}
+.masukk{
+	font-size: 12PT;
+	text-align:left;
     text-transform: capitalize ;   
 }
 .kotak_masuk{
