@@ -26,14 +26,15 @@
        <h1>!!Data Tidak Lengkap</h1>
         <a href='makanan2.php'>Back</a>";
      } else {
-       $data = "INSERT into restoranku values ('$username', '$password')";
+       $data = "INSERT into restoranku (username, password) values ('$username', '$password')";
        $save = $connect->query($data);
        if($save) {
          echo "<div align='center'>
          <h1>!!REGISTER SUKSES!!<br></h1> 
          <a href='makanan1.php'>Login</a></div>";
        } else {
-         echo "<div align='center'><h1>!!REGISTER GAGAL!!</h1></div>";
+         echo "<div align='center'><h1>!!REGISTER GAGAL!!</h1></div>;
+         <a href='makanan2.php'>daftar lagi</a></div>";
        }
      }
    }

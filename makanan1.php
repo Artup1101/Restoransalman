@@ -26,10 +26,14 @@
             <input type="password" name="password" class="masuk" placeholder ="Password"><br>
             <button type="submit" class=tombol_masuk>Login</button><br><br></p>
         </form>
+        <form action="prosesloginadmin.php" method="post">
+            <button type="submit" class=tombol_masuk>Admin</button><br><br><br>
+        </form>   
         <form action="makanan2.php" method="post">
             <button type="submit" class=tombol_masuk>Daftar</button>
         </form>    
     </div>
+    <
 
 </body>
 </html>

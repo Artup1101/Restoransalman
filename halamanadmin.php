@@ -1,12 +1,4 @@
-<?php
-session_start();
-if(!isset($_SESSION['username'])) {
-   header('location:Login.php'); 
-} 
-else { 
-   $username = $_SESSION['username']; 
-}
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,11 +8,11 @@ else {
     <link rel="stylesheet" type="text/css" href="halaman.css">
 </head>
 <body>
-       
+<h5 align = "left">Admin<h5>       
 <h1 align="center">Login Berhasil</h1>
 <div class="yoamanta">
             <h1 align="center">Makanan</h1>
-    <p> 1.  Pecel
+    <p>
     <br>
     2.  Rawon
     <br>
@@ -44,11 +36,6 @@ else {
    
       </div>
     <div class='Aku' align='center'>
-    <b>
-   	<?php
-   	echo $username;
-   	?>		
-   	</b>
    	<a href="Logout.php">Logout</a>
 </div>
 </body>

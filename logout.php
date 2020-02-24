@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Logout</title>
-  <link rel="stylesheet" type="text/css" href="background.css">
+  <link rel="stylesheet" type="text/css" href="halaman.css">
 </head>
 <body>
 <?php
@@ -12,9 +12,12 @@
    session_destroy();
 ?>
 
-<div align="center">
+<div class='yoamanta' align="center">
   <h1>Anda telah logout</h1>
-  <a href="makanan1.php">Login</a>
+</div> 
+<div class='Aku' align='center'>
+<b>Silahkan Keluar</b> 
+  <a href="makanan1.php" text-align='center'>Login</a>
 </div>
   
 </body>

@@ -5,3 +5,19 @@ body{
     width: 100%;
     background-size: cover;
 }
+.yoamanta{
+	font-size: 20PT;
+    text-align:center;
+    color: #ffffff;   
+}
+h1{
+    font-family: bowlist;
+	text-align: center;
+	color: #ffffff;
+    font-weight: 200;
+    font-size: 60pt;
+}  
+a{
+    font-size: 20PT;
+    text-align: center;  
+}
